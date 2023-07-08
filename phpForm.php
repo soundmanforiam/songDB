@@ -10,10 +10,10 @@ $author = $_POST['author'];
 $copyright = $_POST['copyright'];
 $lyrics = $_POST['lyrics'];
 
-$servername = "mysql.morethanredemptionmusic.com";
-$username = "worshipminister";
-$password = "MTRMu51c";
-$db = "mtrsongdb";
+$servername = "databaseServer";
+$username = "databaseUsername";
+$password = "databasePassword";
+$db = "databaseName";
 
 //$conn = new mysqli($servername, $username, $password, $db);
 $conn = mysqli_connect($servername, $username, $password, $db);
